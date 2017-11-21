@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.iconfont {
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  outline:none
+}
