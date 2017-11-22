@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Router, Route, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './TabBar.less'
 class TabBarExample extends Component {
   constructor(props) {
@@ -35,7 +35,6 @@ class TabBarExample extends Component {
 
   render() {
     return (
-      <div className="tabs-bar-warp">
         <div className="tab-bar-bar">
           {this.state.tabList.map((el, idx) => {
             return (
@@ -50,7 +49,6 @@ class TabBarExample extends Component {
             )
           })}
         </div>
-      </div>
     );
   }
 }

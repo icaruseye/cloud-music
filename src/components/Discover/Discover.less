@@ -1,4 +1,8 @@
 .sreach-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
   display: flex;
   padding: 0 10px;
   align-items: center;
@@ -28,5 +32,56 @@
       font-size: 15px;
       color: #555;
     }
+  }
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-dots {
+  bottom: 5px;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #d43c33;
+}
+
+.discover-wrap {
+  padding-top: 45px;
+}
+
+.button-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #e2e3e4;
+  padding: 17px 0;
+
+  .button-bar-icon {
+    margin-bottom: 5px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d33a31;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d33a31;
+    .iconfont {
+      font-size: 28px;
+    }
+  }
+
+  .button-bar-text {
+    font-size: 12px;
+    text-align: center;
+    color: #333;
   }
 }

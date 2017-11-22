@@ -4,6 +4,12 @@ body {
   font-family: sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .iconfont {
   font-size: 22px;
 }
@@ -15,4 +21,12 @@ a {
 
 input {
   outline:none
+}
+
+.app-wrap {
+  padding-bottom: 50px;
+}
+
+.App {
+  overflow: hidden;
 }
